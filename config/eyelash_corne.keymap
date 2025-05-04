@@ -71,7 +71,7 @@
 &rgb_ug RGB_TOG  &kp EXCL        &kp AT      &kp HASH  &kp DOLLAR      &kp PERCENT                                &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH
 &rgb_ug RGB_EFF  &bt BT_PRV      &bt BT_NXT  &kp UP    &kp C_PREVIOUS  &kp C_NEXT                 &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp TILDE     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE
 &bt BT_CLR       &studio_unlock  &kp LEFT    &kp DOWN  &kp RIGHT       &kp C_MUTE   &kp C_MUTE                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp GRAVE     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp INS
-                                             &trans    &trans          &trans                                                                      &trans     &trans     &trans
+                                             &trans    &trans          &trans                                                                      &trans     &trans     &kp RCTRL
             >;
 
             sensor-bindings = <&rgb_encoder>;
