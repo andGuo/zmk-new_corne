@@ -74,7 +74,7 @@
                                              &trans    &trans          &trans                                                                      &trans     &trans     &trans
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&rgb_encoder>;
         };
 
         raise_layer {
