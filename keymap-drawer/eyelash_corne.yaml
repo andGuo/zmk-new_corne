@@ -43,13 +43,13 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-option$$
-  - NUMBER
+  - SYMBOLS
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - SYMBOL
+  - NUMBERS
   - {t: '$$mdi:backspace$$', type: backspace}
-  NUMBER:
+  SYMBOLS:
   - RGB TOG
   - '!'
   - '@'
@@ -98,7 +98,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-control$$
-  SYMBOL:
+  NUMBERS:
   - F1
   - F2
   - F3
