@@ -15,6 +15,5 @@ include:
     shield: settings_reset
   - board: eyelash_corne_left
     shield: settings_reset
-  - board: andGuo_test
+  - board: eyelash_corne_right
     shield: settings_reset
-  #snippet: zmk-usb-logging
