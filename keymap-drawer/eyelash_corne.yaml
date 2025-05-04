@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
-  QWERTY:
+  MAC:
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -13,7 +13,11 @@ layers:
   - I
   - O
   - P
+<<<<<<< HEAD
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:backspace-reverse-outline$$'}
+=======
   - $$mdi:keyboard-esc$$
+>>>>>>> main
   - $$mdi:apple-keyboard-control$$
   - A
   - S
@@ -29,7 +33,11 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
+<<<<<<< HEAD
+  - $$mdi:apple-keyboard-shift$$
+=======
   - LGUI
+>>>>>>> main
   - Z
   - X
   - C
@@ -43,6 +51,15 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-option$$
+<<<<<<< HEAD
+  - SYMBOLS
+  - LGUI
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - NUMBERS
+  - {t: '$$mdi:backspace$$', type: backspace}
+  SYMBOLS:
+=======
   - NUMBER
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:keyboard-space$$
@@ -50,6 +67,7 @@ layers:
   - SYMBOL
   - {t: '$$mdi:backspace$$', type: backspace}
   NUMBER:
+>>>>>>> main
   - RGB TOG
   - '!'
   - '@'
@@ -64,11 +82,19 @@ layers:
   - )
   - {t: \, s: '|'}
   - RGB EFF
+<<<<<<< HEAD
+  - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
+  - $$mdi:skip-previous$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:skip-next$$
+  - $$mdi:volume-high$$
+=======
   - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - $$mdi:arrow-up-bold$$
   - PREVIOUS
   - $$mdi:skip-next$$
+>>>>>>> main
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
@@ -79,11 +105,19 @@ layers:
   - '}'
   - '|'
   - $$mdi:bluetooth-off$$
+<<<<<<< HEAD
+  - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
+  - $$mdi:volume-low$$
+=======
   - '&studio_unlock'
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - $$mdi:volume-off$$
+>>>>>>> main
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - _
@@ -98,11 +132,29 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-control$$
+<<<<<<< HEAD
+  NUMBERS:
+  - RGB HUD
+  - RGB HUI
+=======
   SYMBOL:
+>>>>>>> main
   - F1
   - F2
   - F3
   - F4
+<<<<<<< HEAD
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - '&mkp MB4'
+  - '1'
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - PgUp
+  - $$mdi:backspace-reverse-outline$$
+  - PRINTSCREEN
+  - OUT BLE
+=======
+>>>>>>> main
   - F5
   - F6
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
@@ -114,6 +166,12 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - F7
   - F8
+<<<<<<< HEAD
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - $$mdi:mouse-left-click-outline$$
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - '&mkp MB5'
+=======
   - F9
   - F10
   - F11
@@ -122,20 +180,30 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - '&mkp MB4'
+>>>>>>> main
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
   - PgDn
   - HOME
+<<<<<<< HEAD
+  - LGUI
+  - OUT USB
+=======
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - F8
+>>>>>>> main
   - F9
   - F10
   - F11
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+<<<<<<< HEAD
+  - {t: '0', s: )}
+=======
   - '&mkp MB5'
+>>>>>>> main
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
@@ -147,3 +215,56 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  WIN:
+  - $$mdi:keyboard-tab$$
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:backspace-reverse-outline$$'}
+  - LGUI
+  - A
+  - S
+  - D
+  - F
+  - G
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - $$mdi:mouse-left-click-outline$$
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - H
+  - J
+  - K
+  - L
+  - {t: ;, s: ':'}
+  - {t: '''', s: '"'}
+  - $$mdi:apple-keyboard-shift$$
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - PLAY PAUSE
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - N
+  - M
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
+  - $$mdi:apple-keyboard-option$$
+  - SYMBOLS
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - NUMBERS
+  - {t: '$$mdi:backspace$$', type: backspace}
+combos:
+- p: [42, 46]
+  k: {t: WIN, h: toggle}
+  l: [MAC]
