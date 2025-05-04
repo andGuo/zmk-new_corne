@@ -64,11 +64,11 @@ layers:
   - )
   - {t: \, s: '|'}
   - RGB EFF
-  - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
+  - $$mdi:skip-previous$$
   - $$mdi:arrow-up-bold$$
-  - PREVIOUS
   - $$mdi:skip-next$$
+  - $$mdi:volume-high$$
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
@@ -79,11 +79,11 @@ layers:
   - '}'
   - '|'
   - $$mdi:bluetooth-off$$
-  - '&studio_unlock'
+  - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - $$mdi:volume-off$$
+  - $$mdi:volume-low$$
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - _
@@ -128,11 +128,11 @@ layers:
   - PgDn
   - HOME
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
-  - F8
-  - F9
-  - F10
-  - F11
-  - F12
+  - '&studio_unlock'
+  - RGB SAD
+  - RGB SAI
+  - RGB HUD
+  - RGB HUI
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - '&mkp MB5'
