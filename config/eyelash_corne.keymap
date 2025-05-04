@@ -68,25 +68,25 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&rgb_ug RGB_TOG  &kp EXCL        &kp AT      &kp HASH  &kp DOLLAR      &kp PERCENT                                &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH
-&rgb_ug RGB_EFF  &bt BT_PRV      &bt BT_NXT  &kp UP    &kp C_PREVIOUS  &kp C_NEXT                 &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp TILDE     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE
-&bt BT_CLR       &studio_unlock  &kp LEFT    &kp DOWN  &kp RIGHT       &kp C_MUTE   &kp C_MUTE                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp GRAVE     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp INS
-                                             &trans    &trans          &trans                                                                      &trans     &trans     &kp RCTRL
+&rgb_ug RGB_TOG  &kp EXCL    &kp AT      &kp HASH  &kp DOLLAR  &kp PERCENT                                      &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH
+&rgb_ug RGB_EFF  &bt BT_NXT  &kp C_PREV  &kp UP    &kp C_NEXT  &kp C_VOLUME_UP                  &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp TILDE     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE
+&bt BT_CLR       &bt BT_PRV  &kp LEFT    &kp DOWN  &kp RIGHT   &kp C_VOLUME_DOWN  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp GRAVE     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp INS
+                                         &trans    &trans      &trans                                                                            &trans     &trans     &kp RCTRL
             >;
 
-            sensor-bindings = <&rgb_encoder>;
+            sensor-bindings = <&scroll_encoder>;
         };
 
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&kp F1        &kp F2  &kp F3  &kp F4   &kp F5   &kp F6                             &mmv MOVE_UP                     &kp PRINTSCREEN  &kp NUMBER_1  &kp N2  &kp N3  &kp PAGE_UP    &kp DEL
-&kp F7        &kp F8  &kp F9  &kp F10  &kp F11  &kp F12            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &mkp MB4         &kp N4        &kp N5  &kp N6  &kp PAGE_DOWN  &kp HOME
-&out OUT_TOG  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &trans                    &mmv MOVE_DOWN                   &mkp MB5         &kp N7        &kp N8  &kp N9  &kp ENTER      &kp END
-                              &trans   &trans   &trans                                                              &trans           &trans        &trans
+&kp F1        &kp F2          &kp F3           &kp F4           &kp F5           &kp F6                                     &mmv MOVE_UP                     &kp PRINTSCREEN  &kp NUMBER_1  &kp N2  &kp N3  &kp PAGE_UP    &kp DEL
+&kp F7        &kp F8          &kp F9           &kp F10          &kp F11          &kp F12                    &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &mkp MB4         &kp N4        &kp N5  &kp N6  &kp PAGE_DOWN  &kp HOME
+&out OUT_TOG  &studio_unlock  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &trans                    &mmv MOVE_DOWN                   &mkp MB5         &kp N7        &kp N8  &kp N9  &kp ENTER      &kp END
+                                               &trans           &trans           &trans                                                                      &trans           &trans        &trans
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&rgb_encoder>;
         };
     };
 };
