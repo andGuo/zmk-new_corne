@@ -58,7 +58,7 @@ layers:
   - F4
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - PG UP
-  - '1'
+  - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
   - PRINTSCREEN
