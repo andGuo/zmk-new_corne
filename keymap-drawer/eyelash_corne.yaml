@@ -44,12 +44,12 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
-  - NUMBER
+  - SYMBOL
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
-  - SYMBOL
+  - NUMBER
   - {t: '$$mdi:backspace$$', type: backspace}
-  SYMBOL:
+  NUMBER:
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - $$mdi:bluetooth-off$$
   - F1
@@ -98,7 +98,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  NUMBER:
+  SYMBOL:
   - {t: '`', s: '~'}
   - '!'
   - '@'
