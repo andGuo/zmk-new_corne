@@ -50,21 +50,21 @@ layers:
   - SYMBOL
   - {t: '$$mdi:backspace$$', type: backspace}
   SYMBOL:
-  - RGB HUD
-  - RGB HUI
+  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
+  - $$mdi:bluetooth-off$$
   - F1
   - F2
   - F3
   - F4
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - '&mkp MB4'
+  - PG UP
   - '1'
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
-  - PgUp
-  - $$mdi:backspace-reverse-outline$$
   - PRINTSCREEN
-  - OUT BLE
+  - $$mdi:backspace-reverse-outline$$
+  - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - F5
   - F6
   - F7
@@ -72,14 +72,14 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - '&mkp MB5'
+  - PG DN
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
-  - PgDn
+  - .
   - HOME
-  - LGUI
-  - OUT USB
+  - RGB TOG
+  - RGB EFF
   - F9
   - F10
   - F11
@@ -99,7 +99,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   NUMBER:
-  - RGB TOG
+  - {t: '`', s: '~'}
   - '!'
   - '@'
   - '#'
@@ -112,8 +112,8 @@ layers:
   - (
   - )
   - {t: \, s: '|'}
-  - RGB EFF
-  - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
+  - $$mdi:apple-keyboard-caps$$
+  - '~'
   - $$mdi:skip-previous$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:skip-next$$
@@ -121,29 +121,29 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - {t: '-', s: _}
   - {t: '=', s: +}
-  - '~'
+  - {t: '-', s: _}
   - '{'
-  - '}'
+  - {t: '[', s: '{'}
+  - (
   - '|'
-  - $$mdi:bluetooth-off$$
-  - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
+  - '&mkp MB4'
+  - '&mkp MB5'
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - $$mdi:volume-low$$
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - _
   - +
-  - {t: '`', s: '~'}
-  - {t: '[', s: '{'}
+  - _
+  - '}'
   - {t: ']', s: '}'}
+  - )
   - INS
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:transfer$$', type: trans}
