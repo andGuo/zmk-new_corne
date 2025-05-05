@@ -70,10 +70,10 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&out OUT_TOG     &bt BT_CLR       &kp F1  &kp F2   &kp F3   &kp F4                             &mmv MOVE_UP                     &kp PG_UP  &kp NUMBER_1  &kp N2  &kp N3  &kp PRINTSCREEN  &kp DEL
-&bt BT_PRV       &bt BT_NXT       &kp F5  &kp F6   &kp F7   &kp F8             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp PG_DN  &kp N4        &kp N5  &kp N6  &kp PERIOD       &kp HOME
-&rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &kp F9  &kp F10  &kp F11  &kp F12  &trans                    &mmv MOVE_DOWN                   &kp N0     &kp N7        &kp N8  &kp N9  &kp ENTER        &kp END
-                                          &trans   &trans   &trans                                                              &trans     &trans        &trans
+&out OUT_TOG     &bt BT_CLR       &kp F1  &kp F2   &kp F3   &kp F4                             &mmv MOVE_UP                     &kp PG_UP  &kp N1  &kp N2  &kp N3  &kp PRINTSCREEN  &kp DEL
+&bt BT_PRV       &bt BT_NXT       &kp F5  &kp F6   &kp F7   &kp F8             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp PG_DN  &kp N4  &kp N5  &kp N6  &kp PERIOD       &kp HOME
+&rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &kp F9  &kp F10  &kp F11  &kp F12  &trans                    &mmv MOVE_DOWN                   &kp N0     &kp N7  &kp N8  &kp N9  &kp ENTER        &kp END
+                                          &trans   &trans   &trans                                                              &trans     &trans  &trans
             >;
 
             sensor-bindings = <&rgb_encoder>;
