@@ -10,6 +10,9 @@ manifest:
     - name: eyelash_corne
       url: https://github.com/andGuo/zmk-new_corne
       revision: main
+    - name: nice-view-gem
+      url: https://github.com/andGuo/nice-view-gem 
+      revision: main
     - name: zmk
       remote: zmkfirmware
       revision: main
