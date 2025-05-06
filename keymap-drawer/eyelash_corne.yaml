@@ -45,12 +45,12 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
   - SYMBOL
-  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - NUMBER
   - {t: '$$mdi:backspace$$', type: backspace}
   NUMBER:
-  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
+  - BT CLR ALL
   - $$mdi:bluetooth-off$$
   - F1
   - F2
@@ -58,9 +58,9 @@ layers:
   - F4
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - PG UP
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
   - PRINTSCREEN
   - $$mdi:backspace-reverse-outline$$
   - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
@@ -78,8 +78,8 @@ layers:
   - {t: '6', s: ^}
   - .
   - HOME
-  - RGB TOG
-  - RGB EFF
+  - OUT USB
+  - OUT BLE
   - F9
   - F10
   - F11
@@ -87,9 +87,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '0', s: )}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - END
   - {t: '$$mdi:transfer$$', type: trans}
@@ -109,9 +109,9 @@ layers:
   - ^
   - '&'
   - '*'
-  - (
-  - )
   - {t: \, s: '|'}
+  - '|'
+  - $$mdi:mouse-right-click-outline$$
   - $$mdi:apple-keyboard-caps$$
   - '~'
   - $$mdi:skip-previous$$
@@ -126,7 +126,7 @@ layers:
   - '{'
   - {t: '[', s: '{'}
   - (
-  - '|'
+  - RGB EFF
   - '&mkp MB4'
   - '&mkp MB5'
   - $$mdi:arrow-left-bold$$
@@ -140,7 +140,7 @@ layers:
   - '}'
   - {t: ']', s: '}'}
   - )
-  - INS
+  - RGB TOG
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
