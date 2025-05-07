@@ -553,8 +553,8 @@ rect.held, rect.combo.held {
 <path d="M490,209 l-186,0" class="combo"/>
 <path d="M490,209 l186,0" class="combo"/>
 <rect rx="6" ry="6" x="476" y="196" width="28" height="26" class="combo"/>
-<a href="#SYMBOL">
-<text x="490" y="209" class="combo tap layer-activator">SYMBOL</text>
+<a href="#WIN">
+<text x="490" y="209" class="combo tap layer-activator">WIN</text>
 </a><text x="490" y="220" class="combo hold">toggle</text>
 </g>
 </g>
@@ -805,8 +805,8 @@ rect.held, rect.combo.held {
 <path d="M490,209 l-186,0" class="combo"/>
 <path d="M490,209 l186,0" class="combo"/>
 <rect rx="6" ry="6" x="476" y="196" width="28" height="26" class="combo"/>
-<a href="#SYMBOL">
-<text x="490" y="209" class="combo tap layer-activator">SYMBOL</text>
+<a href="#WIN">
+<text x="490" y="209" class="combo tap layer-activator">WIN</text>
 </a><text x="490" y="220" class="combo hold">toggle</text>
 </g>
 </g>
@@ -1083,8 +1083,8 @@ rect.held, rect.combo.held {
 <path d="M490,209 l-186,0" class="combo"/>
 <path d="M490,209 l186,0" class="combo"/>
 <rect rx="6" ry="6" x="476" y="196" width="28" height="26" class="combo"/>
-<a href="#SYMBOL">
-<text x="490" y="209" class="combo tap layer-activator">SYMBOL</text>
+<a href="#WIN">
+<text x="490" y="209" class="combo tap layer-activator">WIN</text>
 </a><text x="490" y="220" class="combo hold">toggle</text>
 </g>
 </g>
@@ -1354,8 +1354,8 @@ rect.held, rect.combo.held {
 <path d="M490,209 l-186,0" class="combo"/>
 <path d="M490,209 l186,0" class="combo"/>
 <rect rx="6" ry="6" x="476" y="196" width="28" height="26" class="combo"/>
-<a href="#SYMBOL">
-<text x="490" y="209" class="combo tap layer-activator">SYMBOL</text>
+<a href="#WIN">
+<text x="490" y="209" class="combo tap layer-activator">WIN</text>
 </a><text x="490" y="220" class="combo hold">toggle</text>
 </g>
 </g>

@@ -198,4 +198,4 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [43, 46]
-  k: {t: SYMBOL, h: toggle}
+  k: {t: WIN, h: toggle}
