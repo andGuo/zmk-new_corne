@@ -74,6 +74,18 @@
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
+        win_layer {
+            display-name = "WIN";
+            bindings = <
+&trans    &trans  &trans  &trans            &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&kp LGUI  &trans  &trans  &trans            &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans    &trans  &trans  &trans            &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                          &kp LEFT_CONTROL  &trans  &trans                                    &trans  &trans  &trans
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+        };
+
         lower_layer {
             display-name = "NUMBER";
             bindings = <
@@ -96,18 +108,6 @@
             >;
 
             sensor-bindings = <&rgb_encoder>;
-        };
-
-        win_layer {
-            display-name = "WIN";
-            bindings = <
-&trans    &trans  &trans  &trans            &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&kp LGUI  &trans  &trans  &trans            &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans    &trans  &trans  &trans            &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                          &kp LEFT_CONTROL  &trans  &trans                                    &trans  &trans  &trans
-            >;
-
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
     };
 };
