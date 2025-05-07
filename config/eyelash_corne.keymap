@@ -54,7 +54,7 @@
         compatible = "zmk,combos";
 
         OS-Toggle {
-            bindings = <&tog 3>;
+            bindings = <&tog 1>;
             key-positions = <43 46>;
         };
     };
