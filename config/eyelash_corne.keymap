@@ -35,6 +35,7 @@
             bindings = <&rgb_ug RGB_TOG>, <&rgb_ug RGB_EFF>;
 
             label = "TD_RGB";
+            tapping-term-ms = <250>;
         };
 
         td_layer_2: td_layer_2 {
@@ -42,6 +43,8 @@
             label = "TD_LAYER_2";
             #binding-cells = <0>;
             bindings = <&mo 2>, <&tog 2>;
+
+            tapping-term-ms = <250>;
         };
 
         td_layer_3: td_layer_3 {
@@ -49,6 +52,8 @@
             label = "TD_LAYER_3";
             #binding-cells = <0>;
             bindings = <&mo 3>, <&tog 3>;
+
+            tapping-term-ms = <250>;
         };
     };
 
