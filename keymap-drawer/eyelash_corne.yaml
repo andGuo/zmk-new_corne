@@ -13,7 +13,7 @@ layers:
   - I
   - O
   - P
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:backspace-reverse-outline$$'}
+  - $$mdi:keyboard-esc$$
   - $$mdi:apple-keyboard-control$$
   - A
   - S
@@ -42,12 +42,12 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-shift$$
   - LGUI
+  - '&td_layer_3'
   - $$mdi:keyboard-space$$
-  - SYMBOL
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - NUMBER
+  - '&td_layer_2'
   - {t: '$$mdi:backspace$$', type: backspace}
   WIN:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -111,7 +111,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - PRINTSCREEN
-  - $$mdi:backspace-reverse-outline$$
+  - HOME
   - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - F5
@@ -126,9 +126,9 @@ layers:
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
   - .
-  - HOME
-  - OUT USB
-  - OUT BLE
+  - END
+  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
+  - '&td_rgb'
   - F9
   - F10
   - F11
@@ -140,12 +140,12 @@ layers:
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - END
+  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   SYMBOL:
   - {t: '`', s: '~'}
@@ -160,7 +160,7 @@ layers:
   - '*'
   - {t: \, s: '|'}
   - '|'
-  - $$mdi:mouse-right-click-outline$$
+  - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-caps$$
   - '~'
   - $$mdi:skip-previous$$
@@ -175,7 +175,7 @@ layers:
   - '{'
   - {t: '[', s: '{'}
   - (
-  - RGB EFF
+  - $$mdi:mouse-right-click-outline$$
   - '&mkp MB4'
   - '&mkp MB5'
   - $$mdi:arrow-left-bold$$
@@ -189,13 +189,13 @@ layers:
   - '}'
   - {t: ']', s: '}'}
   - )
-  - RGB TOG
+  - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [46, 44]
+- p: [46, 43]
   k: {t: WIN, h: toggle}
