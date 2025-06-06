@@ -99,8 +99,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   NUMBER:
-  - BT CLR ALL
-  - $$mdi:bluetooth-off$$
+  - '&studio_unlock'
+  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - F1
   - F2
   - F3
@@ -127,8 +127,8 @@ layers:
   - {t: '6', s: ^}
   - .
   - END
-  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
-  - '&td_rgb'
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
   - F9
   - F10
   - F11
@@ -160,7 +160,7 @@ layers:
   - '*'
   - {t: \, s: '|'}
   - '|'
-  - $$mdi:backspace-reverse-outline$$
+  - '&mkp MB4'
   - $$mdi:apple-keyboard-caps$$
   - '~'
   - $$mdi:skip-previous$$
@@ -176,8 +176,8 @@ layers:
   - {t: '[', s: '{'}
   - (
   - $$mdi:mouse-right-click-outline$$
-  - '&mkp MB4'
-  - '&mkp MB5'
+  - '&td_rgb'
+  - $$mdi:alpha-w-box$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
@@ -189,7 +189,7 @@ layers:
   - '}'
   - {t: ']', s: '}'}
   - )
-  - $$mdi:apple-keyboard-option$$
+  - '&mkp MB5'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -199,3 +199,5 @@ layers:
 combos:
 - p: [46, 43]
   k: {t: WIN, h: toggle}
+- p: [20, 46]
+  k: BT CLR ALL
